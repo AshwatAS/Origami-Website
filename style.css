@@ -8,6 +8,13 @@ h1{
 .grid{
     border:solid;
     border-color: #0000ff;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.link{
+    border: none;
+    margin-left: 1250px;
 }
 .item{
     background-color: #ffff00;
@@ -53,4 +60,49 @@ h1{
 }
 .img5{
     border:solid;
+}
+.img:hover{
+    border:none;
+    background-image:url("group.jpeg");
+    margin-left: 140px;
+    transform: scale(1.5,1.5);
+}
+.img2:hover{
+    border:none;
+    background-image:url("group2.jpeg");
+    margin-left: 140px;
+    transform: scale(1.5,1.5);
+}
+.img3:hover{
+    border:none;
+    background-image:url("group3.jpeg");
+    margin-left: 140px;
+    transform: scale(1.5,1.5);
+}
+.img4:hover{
+    background-image:url("group4.jpg");
+    border:none;
+    margin-left: 140px;
+    transform: scale(1.5,1.5);
+}
+.img5:hover{
+    border:none;
+    background-image:url("group5.jpeg");
+    margin-left: 140px;
+    transform: scale(1.5,1.5);
+}
+.item:hover p{
+    color: #ff0000;
+}
+.item2:hover p{
+    color: #ff0000;
+}
+.item3:hover p{
+    color: #ff0000;
+}
+.item4:hover p{
+    color: #ff0000;
+}
+.item5:hover p{
+    color: #ff0000;
 }
